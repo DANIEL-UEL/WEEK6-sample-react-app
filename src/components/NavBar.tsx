@@ -6,8 +6,11 @@ const NavBar = () => {
     <Navbar className="bg-slate-100 h-16">
       <NavbarBrand>
         <MdApi className="w-8 h-8 text-primary" />
-        <p className="font-bold text-inherit">Weather API</p>
+        <p className="font-bold text-inherit">United Kingdom Properties</p>
       </NavbarBrand>
+
+
+
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         {/* <NavbarItem>
           <Link color="foreground" href="#">
@@ -23,7 +26,7 @@ const NavBar = () => {
           <Link color="foreground" href="#">
             Integrations
           </Link>
-        </NavbarItem> */}
+  </NavbarItem> */}
       </NavbarContent>
       {/* <NavbarContent justify="end">
         <NavbarItem className="hidden lg:flex">
@@ -36,6 +39,7 @@ const NavBar = () => {
         </NavbarItem>
       </NavbarContent> */}
     </Navbar>
+    
   );
 };
 
